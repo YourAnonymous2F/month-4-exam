@@ -6,11 +6,11 @@ function App() {
   const [search, setSearch] = useState('')
 
   const subjects = [
-    {id:1, subject: 'Mathematics', grade: 80, teacher: 'Mr. Fohdil'},
-    {id:2, subject: 'English', grade: 85, teacher: 'Mr. Tope'},
-    {id:3, subject: 'Biology', grade: 39, teacher: 'Mrs. Smith'},
-    {id:4, subject: 'Chemistry', grade: 80, teacher: 'Miss T'},
-    {id:5, subject: 'Physics', grade: 90, teacher: 'Miss A'}
+    {id:1, subject: 'Mathematics', grade: 95, teacher: 'Mr. Fohdil'},
+    {id:2, subject: 'English', grade: 95, teacher: 'Mr. Tope'},
+    {id:3, subject: 'Biology', grade: 94, teacher: 'Mrs. Smith'},
+    {id:4, subject: 'Chemistry', grade: 49, teacher: 'Miss T'},
+    {id:5, subject: 'Physics', grade: 49, teacher: 'Miss A'}
   ]
 
   const overallAverage = subjects.reduce((total, sub) => total + sub.grade, 0) /subjects.length
